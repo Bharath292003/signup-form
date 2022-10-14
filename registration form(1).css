@@ -1,0 +1,53 @@
+#box{
+    border:2px solid red;
+    display:flex;
+    flex-direction:column;
+    width:600px;
+    margin:10px auto;
+    padding:10px;
+    min-height:600px;
+    text-align:center;
+    background-color:pink;
+    }
+    form input{
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:5px;
+    border:2px solid green;
+    border-radius:10px;
+    outline:none;
+    padding:10px;
+    }
+    form label{
+    font-size:20px;
+    }
+    form label:hover{
+    background-color:red;
+    }
+    #fname{
+    width:150px;
+    }
+    #lname{
+    margin-left:10px;
+    width:150px;
+    }
+    #button input:hover{
+    cursor:pointer;
+    background-color:pink;
+    }
+    @media screen and (max-width:660px){
+    #box tr{
+    display:flex;
+    flex-direction:column;
+    }
+    #box{
+    width:300px;
+    }
+    form input{
+    margin-top:0;
+    }
+    #lname{
+    margin-left:5px;
+    }
+    }
+    

@@ -1,0 +1,64 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>signup form</title>
+<link rel="stylesheet" href="registration form(1).css">
+</head>
+<body>
+<div id="box">
+<h1>Registration form</h1>
+<form>
+<table>
+<tr>
+<td><label>Your Name</label></td>
+<td><input type="text" value="" type="" placeholder="enter your first name" id="fname" />
+<input type="text" value="" name="" placeholder="enter your last name" id="lname" /><br/></td>
+</tr>
+<tr>
+<td><label>Username</label></td>
+<td><input type="text" value="" name="" /><br/></td>
+</tr>
+<tr>
+<td><label>Date of birth</label></td>
+<td><input type="date" name="" /><br/></td>
+</tr>
+<tr>
+<td><label>Gender</label></td>
+<td><input type="radio" name="gender" id="male" /><label for="male" id="four">Male</label> <input type="radio" name="gender" id="female"><label for="female" id="five">Female</label><br/></td>
+</tr>
+<tr>
+<td><label>Email</label></td>
+<td><input type="email" name="" placeholder="e.g:example@email.com" /><br/></td>
+</tr>
+<tr>
+<td><label>confirm your Email</label></td>
+<td><input type="email" name="" placeholder="e.g:example@email.com" /><br/></td>
+</tr>
+<tr>
+<td><label>password</label></td>
+<td><input type="password" name="" value="" /><br/></td>
+</tr>
+<tr>
+<td><label>confirm your password</label></td>
+<td><input type="password" name="" value="" /><br/></td>
+</tr>
+<tr>
+<td><label>phone number</label></td>
+<td><input type="tel" name="" placeholder="e.g:03XX-XXXXXXX" /><br/></td>
+</tr>
+<tr>
+</table>
+<div align="center" id="button">
+<input type="submit" value="signup" />
+</div>
+</form>
+</div>
+<script>
+    var fname=document.getElementById("fname");
+    if(fname.value=""){
+        alert("please enter your first name");
+        fname.focus();
+    }
+</script>
+</body>
+</html>
