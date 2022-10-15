@@ -5,4 +5,7 @@ like Name
 Username
 Email
 password
-phone number
+phone number.
+Fork this project and clone this project to your local folder.
+make changes in your new branch by creating one.Do not commit to the main branch.
+
